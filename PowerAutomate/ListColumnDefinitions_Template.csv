@@ -1,0 +1,17 @@
+ListName,ColumnName,ColumnType,ColumnDisplayName,Required,Choices
+ProjectTracker,Title,Text,Title,Yes,
+ProjectTracker,ProjectStatus,Choice,Project Status,Yes,"Active,On Hold,Completed,Cancelled"
+ProjectTracker,StartDate,DateTime,Start Date,Yes,
+ProjectTracker,EndDate,DateTime,End Date,No,
+ProjectTracker,Budget,Number,Budget ($),No,
+ProjectTracker,IsApproved,Boolean,Approved,No,
+EmployeeDirectory,Title,Text,Full Name,Yes,
+EmployeeDirectory,Department,Choice,Department,Yes,"HR,Finance,Engineering,Marketing,Operations"
+EmployeeDirectory,HireDate,DateTime,Hire Date,Yes,
+EmployeeDirectory,EmployeeID,Text,Employee ID,Yes,
+EmployeeDirectory,IsActive,Boolean,Active Employee,No,
+AssetInventory,Title,Text,Asset Name,Yes,
+AssetInventory,AssetType,Choice,Asset Type,Yes,"Hardware,Software,Furniture,Vehicle"
+AssetInventory,PurchaseDate,DateTime,Purchase Date,No,
+AssetInventory,PurchasePrice,Number,Purchase Price,No,
+AssetInventory,AssignedTo,Text,Assigned To,No,
